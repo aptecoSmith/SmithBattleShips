@@ -5,6 +5,10 @@ namespace SmithBattleShips
         private NavyAsset na = new NavyAsset();
         private List<Button> buttons = new List<Button>();
 
+        //note the use of casing for variables and Methods
+        //PascalCase for Methods
+        //camelCase for variables
+
         //add rest of click actions via designer - see row 2
         //add labels to rows and columns
         //perhaps some sort of count?

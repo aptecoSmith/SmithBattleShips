@@ -17,6 +17,7 @@ namespace SmithBattleShips
             BlankTextButtons();
             ColourGrid();
 
+            //what is this line doing Thomas?  Why have I put it here?
             Position thisCell = new Position()
             {
                 x = 1,
@@ -262,7 +263,7 @@ namespace SmithBattleShips
                 x = 1,
                 y = 1
             };
-            if (na.AllShipsPosition.Any(n => n.x == thisCell.x && n.y == thisCell.y))
+            if (na.AllShipsPosition.Any(n => n.x == thisCell.x && n.y == thisCell.y))//what is this line doing Thomas?
             {
                 button1.BackColor = Color.Red;
             }

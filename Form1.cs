@@ -21,7 +21,7 @@ namespace SmithBattleShips
             BlankTextButtons();
             ColourGrid();
 
-            //what is this line doing Thomas?  Why have I put it here?
+            //what is this block doing Thomas?  Why have I put it here?
             Position thisCell = new Position()
             {
                 x = 1,
